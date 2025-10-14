@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Veterinaria Clinivet Piedecuesta</title>
+
+  <!-- Font Awesome (iconos WhatsApp, teléfono, ubicación, etc.) -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+
+
+<body>
+
+  <!-- Top bar -->
+<div class="top-bar">
+  <div class="container">
+    <div class="top-left">
+      <div class="logo-circle">
+        <img src="images/logo.png" alt="Logo" class="logo-small" />
+      </div>
+      <span class="brand">Clinica Veterinaria Clinivet</span>
+    </div>
+
+    <div class="top-right">
+      <a href="tel:+573203909390" class="top-link">📞 Llámanos</a>
+      <a href="https://wa.me/573203909390" target="_blank" class="top-link">
+        <i class="fab fa-whatsapp whatsapp-icon"></i> Escríbenos
+      </a>
+      <a href="https://www.google.com/maps/dir/?api=1&destination=Cra.+5B+%23+22-20,+Piedecuesta,+Santander,+Colombia" class="top-link">📍 Visítanos</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+  <!-- Nav -->
+  <header class="nav-bar">
+    <div class="container nav-inner">
+      <a class="brand-link" href="#inicio">M.V.Z. Julio Jahir Navarro Caicedo</a>
+      <button id="navToggle" class="nav-toggle" aria-label="Abrir menú">☰</button>
+      <nav>
+        <ul id="navMenu" class="nav-menu">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#como-llegar">Cómo llegar</a></li>
+          <li><a href="#pqrs">PQRS</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero / Slider -->
+  <main>
+    <section id="inicio" class="hero">
+      <div class="slides">
+        <div class="slide active" style="background-image:url('images/slide1.png')">
+        </div>
+
+        <div class="slide" style="background-image:url('images/slide2.png')">
+        </div>
+
+        <div class="slide" style="background-image:url('images/slide3.png')">
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="section servicios">
+      <div class="container">
+        <h2>Nuestros Servicios</h2>
+        <div class="servicios-grid">
+          <!-- 15 servicios -->
+          <div class="servicio-card" data-title="Consulta Médica" data-info="Nuestros médicos veterinarios realizan evaluaciones completas para detectar y tratar cualquier alteración en la salud de tu mascota. Garantizamos un servicio cálido, profesional y enfocado en la prevención. " data-img="images/consulta-medica.png">
+            <img src="images/icono-consulta.png" alt="Consulta Médica">
+            <h3>Consulta Médica</h3>
+            <p>Atención veterinaria integral para el bienestar de tu mascota.</p>
+          </div>
+
+          <div class="servicio-card" data-title="Hospitalización" data-info="Ofrecemos un área equipada para la atención de pacientes que requieren hospitalización, brindando confort, control médico continuo y seguimiento personalizado hasta su recuperación." data-img="images/hospitalizacion.png">
+            <img src="images/icono-hospitalizacion.png" alt="Hospitalización">
+            <h3>Hospitalización</h3>
+            <p>Cuidados médicos intensivos con monitoreo constante.</p>
+          </div>
+
+          <div class="servicio-card" data-title="Cirugías" data-info="Realizamos procedimientos quirúrgicos especializados en ortopedia y tejidos blandos, con protocolos avanzados de anestesia, monitoreo constante y estrictas medidas de asepsia. Nuestro equipo garantiza intervenciones seguras, precisas y enfocadas en una recuperación rápida y sin complicaciones." data-img="images/cirugias.png">
+            <img src="images/icono-cirugia.png" alt="Cirugías">
+            <h3>Cirugías</h3>
+            <p>Cirugías en ortopedia y tejidos blandos con máxima seguridad.</p>
+          </div>
+
+          <div class="servicio-card" data-title="Laboratorio Clínico" data-info="Contamos con laboratorio propio para análisis de sangre, orina y otras pruebas diagnósticas, lo que nos permite obtener resultados inmediatos y diseñar tratamientos efectivos." data-img="images/laboratorio.png">
+            <img src="images/icono-laboratorio.png" alt="Laboratorio Clínico">
+            <h3>Laboratorio Clínico</h3>
+            <p>Diagnósticos rápidos y precisos para un mejor tratamiento.</p>
+          </div>
+
+          <div class="servicio-card" data-title="Domicilios" data-info="Nos desplazamos hasta tu hogar para brindar servicios de consulta, vacunación o control general, con la misma calidad y profesionalismo que en nuestras instalaciones." data-img="images/domicilios.png">
+            <img src="images/icono-domicilios.png" alt="Domicilios">
+            <h3>Domicilios</h3>
+            <p>Vamos hasta ti con todo lo necesario.</p>
+          </div>
+
+          <div class="servicio-card" data-title="Petshop" data-info="Disponemos de una amplia variedad de productos de alimentación, higiene y accesorios para mantener feliz y saludable a tu mascota con marcas confiables y asesoría experta." data-img="images/petshop.png">
+            <img src="images/icono-petshop.png" alt="Petshop">
+            <h3>Petshop</h3>
+            <p>Todo lo que tu mascota necesita en un solo lugar.</p>
+          </div>
+
+          <div class="servicio-card" data-title="Peluquería y Estética" data-info="Ofrecemos baños, cortes, cepillados y tratamientos estéticos adaptados a cada raza, utilizando productos dermatológicamente seguros para una experiencia cómoda y agradable." data-img="images/peluqueria.png">
+            <img src="images/icono-peluqueria.png" alt="Peluquería">
+            <h3>Peluquería y Estética</h3>
+            <p>Cuida la apariencia y salud del pelaje de tu mascota.</p>
+          </div>
+
+          <div class="servicio-card" data-title="Profilaxis Dental" data-info="Realizamos limpiezas dentales con ultrasonido y control odontológico preventivo, evitando enfermedades bucales y mejorando el bienestar general de tu mascota." data-img="images/profilaxis-dental.png">
+            <img src="images/icono-profilaxis.png" alt="Profilaxis Dental">
+            <h3>Profilaxis Dental</h3>
+            <p>Salud oral para una vida más feliz.</p>
+          </div>
+
+          <div class="servicio-card" data-title="Farmacia Veterinaria" data-info="Nuestra farmacia cuenta con un amplio stock de fármacos veterinarios certificados y productos especializados para apoyar la recuperación y el mantenimiento de la salud animal." data-img="images/farmacia-veterinaria.png">
+            <img src="images/icono-farmacia.png" alt="Farmacia Veterinaria">
+            <h3>Farmacia Veterinaria</h3>
+            <p>Medicamentos y suplementos con asesoría profesional.</p>
+          </div>
+
+          <div class="servicio-card" data-title="Vacunación" data-info="Aplicamos esquemas de vacunación personalizados para perros y gatos, garantizando inmunización segura, control médico y registro actualizado de cada dosis aplicada." data-img="images/vacunacion.png">
+            <img src="images/icono-vacunacion.png" alt="Vacunación">
+            <h3>Vacunación</h3>
+            <p>Protección efectiva contra enfermedades comunes.</p>
+          </div>
+
+          <div class="servicio-card" data-title="Desparasitación" data-info="Ofrecemos tratamientos efectivos contra pulgas, garrapatas y parásitos intestinales, adaptados a la edad, peso y estilo de vida de tu mascota, con seguimiento veterinario" data-img="images/desparasitacion.png">
+            <img src="images/icono-desparasitacion.png" alt="Desparasitación">
+            <h3>Desparasitación</h3>
+            <p>Eliminación y prevención de parásitos internos y externos.</p>
+          </div>
+
+          <div class="servicio-card" data-title="Microchip" data-info="Implantamos microchips homologados que permiten localizar y registrar fácilmente a tu mascota, asegurando su identificación en caso de pérdida o desplazamiento." data-img="images/microchip.png">
+            <img src="images/icono-microchip.png" alt="Microchip">
+            <h3>Microchip</h3>
+            <p>Identificación permanente y segura para tu mascota</p>
+          </div>
+
+          <div class="servicio-card" data-title="Certificados" data-info="Emitimos certificados de salud, vacunación y viajes internacionales, avalados por profesionales autorizados y conforme a los requerimientos legales vigentes." data-img="images/certificados.png">
+            <img src="images/icono-certificados.png" alt="Certificados">
+            <h3>Certificados</h3>
+            <p>Documentación oficial para viajes y trámites veterinarios.</p>
+          </div>
+
+          <div class="servicio-card" data-title="Telemedicina" data-info="Consulta con nuestros veterinarios mediante videollamada para orientación, seguimiento de tratamientos o evaluación de síntomas sin necesidad de trasladarte." data-img="images/telemedicina.png">
+            <img src="images/icono-telemedicina.png" alt="Telemedicina">
+            <h3>Telemedicina</h3>
+            <p>Consulta veterinaria en línea.</p>
+          </div>
+
+          <div class="servicio-card" data-title="Imágenes Diagnósticas" data-info="Realizamos estudios de radiografía, ecografía y diagnóstico digital para detectar patologías con precisión, apoyando al veterinario en un tratamiento más eficaz." data-img="images/imagenesdiagnosticas.png">
+            <img src="images/icono-imagenesdiagnosticas.png" alt="Imágenes Diagnósticas">
+            <h3>Imágenes Diagnósticas</h3>
+            <p>Diagnósticos por imagen de alta precisión..</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="modalServicio" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <img id="modalImg" src="" alt="Servicio" class="modal-img">
+        <h3 id="modalTitle"></h3>
+        <p id="modalInfo"></p>
+
+        <div class="modal-floating-buttons">
+          <a id="modalBtnCall" href="tel:+573203909390" class="btn-float call">
+            <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="Llamar">
+          </a>
+          <a id="modalBtnWhats" href="#" target="_blank" class="btn-float whatsapp">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mapa -->
+    <section id="como-llegar" class="mapa section">
+      <h2>📍 Cómo llegar</h2>
+      <div class="mapa-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.919275401496!2d-73.05032762534794!3d6.986460217519239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e68130a5a9a8cf5%3A0xf5b3f0d32bde3b3!2sVeterinaria%20Clinivet%20Piedecuesta!5e0!3m2!1ses-419!2sco!4v1696768470232!5m2!1ses-419!2sco"
+          width="100%"
+          height="400"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </section>
+
+    <!-- PQRS -->
+    <section id="pqrs" class="pqrs-section section">
+      <h2>Quejas, Reclamos y Sugerencias</h2>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScrp1RIfV_lSsF6J-dLEv8WuC-WuzN4OAZ8tcdDp8JUQtG_ig/viewform?embedded=true" width="100%" height="1100"></iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto" class="footer">
+      <div class="container footer-grid">
+        <div>
+          <h4>Veterinaria Clinivet Piedecuesta</h4>
+          <p>Cr 5B #22-20, Paseo del Puente 2, Piedecuesta</p>
+          <p>Tel: <a href="tel:+573203909390">+57 320 390 9390</a></p>
+        </div>
+        <div class="copyright">© 2025 Veterinaria Clinivet Piedecuesta - Todos los derechos reservados</div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Redes Sociales Flotantes -->
+  <div class="social-floating">
+    <a href="https://wa.me/573203909390" target="_blank" style="animation-delay:0s;">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+    </a>
+    <a href="https://facebook.com" target="_blank" style="animation-delay:0.1s;">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+    </a>
+    <a href="https://instagram.com" target="_blank" style="animation-delay:0.2s;">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+    </a>
+    <a href="https://www.tiktok.com/@veterinaria.clini?_t=ZS-8yxf7LSEixU&_r=1" target="_blank" style="animation-delay:0.3s;">
+      <img src="https://cdn-icons-png.flaticon.com/512/3046/3046125.png" alt="TikTok">
+    </a>
+  </div>
+
+</body>
+</html>
