@@ -38,9 +38,10 @@ body {
 /* ====== TOP BAR ====== */
 /* ====== TOP BAR (FONDO AZUL, TEXTO BLANCO, LOGO GRANDE) ====== */
 .top-bar {
-  background-color: #318af4; /* azul corporativo */
+  background-color: #ffffff; /* fondo blanco */
   padding: 6px 25px;
   font-family: 'Poppins', sans-serif;
+  border-bottom: 1px solid #e0e0e0; /* línea sutil para separar */
 }
 
 .top-bar .container {
@@ -80,7 +81,7 @@ body {
 .brand {
   font-size: 1.6rem;
   font-weight: 600;
-  color: #ffffff; /* blanco */
+  color: #318af4; /* azul */
 }
 
 /* ==== Enlaces derecha ==== */
@@ -94,7 +95,7 @@ body {
 }
 
 .top-right a {
-  color: #ffffff; /* texto blanco */
+  color: #318af4; /* texto azul */
   font-size: 0.95rem;
   font-weight: 700; /* ← agrega esto para que estén en negrilla */
   text-decoration: none;
