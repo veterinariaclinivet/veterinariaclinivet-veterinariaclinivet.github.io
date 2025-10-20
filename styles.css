@@ -36,7 +36,7 @@ body {
 }
 
 /* ====== TOP BAR ====== */
-/* ====== TOP BAR (FONDO AZUL, TEXTO BLANCO, LOGO GRANDE) ====== */
+/* ====== TOP BAR (FONDO BLANCO, TEXTO AZUL, LOGO GRANDE) ====== */
 .top-bar {
   background-color: #ffffff; /* fondo blanco */
   padding: 6px 25px;
@@ -81,7 +81,7 @@ body {
 .brand {
   font-size: 1.6rem;
   font-weight: 600;
-  color: #318af4; /* azul */
+  color: #318af4; /*azul */
 }
 
 /* ==== Enlaces derecha ==== */
@@ -525,3 +525,4 @@ h2 {
     height: 140px;
   }
 }
+
