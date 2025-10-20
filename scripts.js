@@ -1,21 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // Slider automático
-  const slides = document.querySelectorAll('.slide');
-  let currentSlide = 0;
 
-  function showSlide(index) {
-    slides.forEach((slide, i) => {
-      slide.classList.toggle('active', i === index);
-    });
-  }
-
-  function nextSlide() {
-    currentSlide = (currentSlide + 1) % slides.length;
-    showSlide(currentSlide);
-  }
-
-  showSlide(currentSlide);
-  setInterval(nextSlide, 3500);
 
   // Menú móvil
   const navToggle = document.getElementById('navToggle');
